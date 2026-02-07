@@ -1,0 +1,127 @@
+﻿@model SaccoDashboard.Models.DashboardVm
+@{
+    ViewData["Title"] = "Sacco Dashboard";
+    var paidPercent = Model.LoanTotal == 0 ? 0 : (int)Math.Round((1 - (double)(Model.LoanRemaining / Model.LoanTotal)) * 100);
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<div class="app-shell">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="brand-logo"></div>
+            <div class="brand-name">THE SACCO</div>
+        </div>
+
+        <div class="side-title">Sacco<br />Dashboard</div>
+
+        <nav class="nav">
+            <a class="nav-item active" href="#"><span class="dot"></span> Overview</a>
+            <a class="nav-item" href="#"><span class="dot"></span> Savings</a>
+            <a class="nav-item" href="#"><span class="dot"></span> Loans</a>
+            <a class="nav-item" href="#"><span class="dot"></span> Account Statements</a>
+            <a class="nav-item" href="#"><span class="dot"></span> Member Profile</a>
+            <a class="nav-item" href="#"><span class="dot"></span> Settings</a>
+        </nav>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+        <div class="topbar">
+            <div></div>
+            <div class="top-actions">
+                <button class="icon-btn" title="Notifications">🔔</button>
+                <div class="avatar"></div>
+            </div>
+        </div>
+
+        <!-- Chart card -->
+        <section class="card card-chart">
+            <div class="card-head">
+                <div>
+                    <div class="card-title">Daily Contribution</div>
+                </div>
+            </div>
+            <canvas id="contribChart" height="90"></canvas>
+        </section>
+
+        <!-- 2 cards row -->
+        <section class="grid-2">
+            <div class="card">
+                <div class="card-title">Current Savings Balance</div>
+                <div class="big-money">$@Model.CurrentSavings.ToString("N2")</div>
+                <div class="bar">
+                    <div class="bar-fill" style="width:72%"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">Loan Status</div>
+                <div class="sub">
+                    <strong>@paidPercent% Paid</strong> - $@Model.LoanRemaining.ToString("N0") remaining
+                </div>
+                <div class="bar">
+                    <div class="bar-fill" style="width:@paidPercent%"></div>
+                </div>
+                <div class="tiny-right">$@Model.LoanTotal.ToString("N0")</div>
+            </div>
+        </section>
+
+        <!-- Transactions -->
+        <section class="card">
+            <div class="card-title">Recent Transactions</div>
+
+            <div class="tx-table">
+                @foreach (var t in Model.RecentTransactions)
+                {
+                    <div class="tx-row">
+                        <div class="tx-date">
+                            <div class="tx-icon">⟳</div>
+                            <div>
+                                <div class="tx-date-top">@t.DateLabel</div>
+                                <div class="tx-date-sub">20/10/20</div>
+                            </div>
+                        </div>
+                        <div class="tx-desc">@t.Description</div>
+                        <div class="tx-amt">$@t.Amount.ToString("N3")</div>
+                    </div>
+                }
+            </div>
+        </section>
+    </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('contribChart').getContext('2d');
+
+    const gradient = ctx.createLinearGradient(0, 0, 0, 200);
+    gradient.addColorStop(0, 'rgba(26, 188, 156, 0.35)');
+    gradient.addColorStop(1, 'rgba(26, 188, 156, 0.02)');
+
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.DailyLabels)),
+            datasets: [{
+                data: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.DailyContributions)),
+                borderColor: '#16a085',
+                backgroundColor: gradient,
+                fill: true,
+                tension: 0.35,
+                pointRadius: 3,
+                pointHoverRadius: 5,
+            }]
+        },
+        options: {
+            plugins: { legend: { display: false } },
+            scales: {
+                x: { grid: { display: false } },
+                y: { grid: { color: 'rgba(0,0,0,0.06)' }, ticks: { maxTicksLimit: 5 } }
+            }
+        }
+    });
+</script>
