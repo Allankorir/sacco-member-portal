@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SaccoDashboard")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12f97bd3df788a5c2fa468618e351f7712e32e84")]
 [assembly: System.Reflection.AssemblyProductAttribute("SaccoDashboard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SaccoDashboard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

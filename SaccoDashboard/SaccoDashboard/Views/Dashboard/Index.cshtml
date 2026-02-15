@@ -52,7 +52,7 @@
         <section class="grid-2">
             <div class="card">
                 <div class="card-title">Current Savings Balance</div>
-                <div class="big-money">$@Model.CurrentSavings.ToString("N2")</div>
+                <div class="big-money">KSH @Model.CurrentSavings.ToString("N2")</div>
                 <div class="bar">
                     <div class="bar-fill" style="width:72%"></div>
                 </div>
@@ -61,18 +61,18 @@
             <div class="card">
                 <div class="card-title">Loan Status</div>
                 <div class="sub">
-                    <strong>@paidPercent% Paid</strong> - $@Model.LoanRemaining.ToString("N0") remaining
+                    <strong>@paidPercent% Paid</strong> - KSH @Model.LoanRemaining.ToString("N0") remaining
                 </div>
                 <div class="bar">
                     <div class="bar-fill" style="width:@paidPercent%"></div>
                 </div>
-                <div class="tiny-right">$@Model.LoanTotal.ToString("N0")</div>
+                <div class="tiny-right">KSH @Model.LoanTotal.ToString("N0")</div>
             </div>
         </section>
 
         <!-- Transactions -->
         <section class="card">
-            <div class="card-title">Recent Transactions</div>
+            <div class="card-title">Recent Account Activity</div>
 
             <div class="tx-table">
                 @foreach (var t in Model.RecentTransactions)
@@ -86,7 +86,7 @@
                             </div>
                         </div>
                         <div class="tx-desc">@t.Description</div>
-                        <div class="tx-amt">$@t.Amount.ToString("N3")</div>
+                        <div class="tx-amt">KSH @t.Amount.ToString("N2")</div>
                     </div>
                 }
             </div>
@@ -99,8 +99,9 @@
     const ctx = document.getElementById('contribChart').getContext('2d');
 
     const gradient = ctx.createLinearGradient(0, 0, 0, 200);
-    gradient.addColorStop(0, 'rgba(26, 188, 156, 0.35)');
-    gradient.addColorStop(1, 'rgba(26, 188, 156, 0.02)');
+        gradient.addColorStop(0, 'rgba(15,118,110,0.35)');
+        gradient.addColorStop(1, 'rgba(15,118,110,0.02)');
+
 
     new Chart(ctx, {
         type: 'line',
@@ -108,7 +109,7 @@
             labels: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.DailyLabels)),
             datasets: [{
                 data: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.DailyContributions)),
-                borderColor: '#16a085',
+                borderColor: '#0F766E',
                 backgroundColor: gradient,
                 fill: true,
                 tension: 0.35,

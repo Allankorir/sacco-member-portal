@@ -32,3 +32,4 @@ C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\
 C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\Debug\net8.0\SaccoDashboard.pdb
 C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\Debug\net8.0\SaccoDashboard.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\Debug\net8.0\ref\SaccoDashboard.dll
+C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\Debug\net8.0\SaccoDashboard.sourcelink.json

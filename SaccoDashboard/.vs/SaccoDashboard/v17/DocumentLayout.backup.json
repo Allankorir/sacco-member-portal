@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{922FC351-E9B1-4F87-894D-7EC3F0E88BD4}|SaccoDashboard\\SaccoDashboard.csproj|solutionrelative:saccodashboard\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{922FC351-E9B1-4F87-894D-7EC3F0E88BD4}|SaccoDashboard\\SaccoDashboard.csproj|c:\\users\\administrator\\desktop\\projects\\sacco\\saccodashboard\\saccodashboard\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{922FC351-E9B1-4F87-894D-7EC3F0E88BD4}|SaccoDashboard\\SaccoDashboard.csproj|solutionrelative:saccodashboard\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{922FC351-E9B1-4F87-894D-7EC3F0E88BD4}|SaccoDashboard\\SaccoDashboard.csproj|c:\\users\\administrator\\desktop\\projects\\sacco\\saccodashboard\\saccodashboard\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{922FC351-E9B1-4F87-894D-7EC3F0E88BD4}|SaccoDashboard\\SaccoDashboard.csproj|solutionrelative:saccodashboard\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{922FC351-E9B1-4F87-894D-7EC3F0E88BD4}|SaccoDashboard\\SaccoDashboard.csproj|c:\\users\\administrator\\desktop\\projects\\sacco\\saccodashboard\\saccodashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{922FC351-E9B1-4F87-894D-7EC3F0E88BD4}|SaccoDashboard\\SaccoDashboard.csproj|solutionrelative:saccodashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{922FC351-E9B1-4F87-894D-7EC3F0E88BD4}|SaccoDashboard\\SaccoDashboard.csproj|solutionrelative:saccodashboard\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{922FC351-E9B1-4F87-894D-7EC3F0E88BD4}|SaccoDashboard\\SaccoDashboard.csproj|c:\\users\\administrator\\desktop\\projects\\sacco\\saccodashboard\\saccodashboard\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{922FC351-E9B1-4F87-894D-7EC3F0E88BD4}|SaccoDashboard\\SaccoDashboard.csproj|solutionrelative:saccodashboard\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{922FC351-E9B1-4F87-894D-7EC3F0E88BD4}|SaccoDashboard\\SaccoDashboard.csproj|c:\\users\\administrator\\desktop\\projects\\sacco\\saccodashboard\\saccodashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{922FC351-E9B1-4F87-894D-7EC3F0E88BD4}|SaccoDashboard\\SaccoDashboard.csproj|solutionrelative:saccodashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{922FC351-E9B1-4F87-894D-7EC3F0E88BD4}|SaccoDashboard\\SaccoDashboard.csproj|c:\\users\\administrator\\desktop\\projects\\sacco\\saccodashboard\\saccodashboard\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{922FC351-E9B1-4F87-894D-7EC3F0E88BD4}|SaccoDashboard\\SaccoDashboard.csproj|solutionrelative:saccodashboard\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{922FC351-E9B1-4F87-894D-7EC3F0E88BD4}|SaccoDashboard\\SaccoDashboard.csproj|c:\\users\\administrator\\desktop\\projects\\sacco\\saccodashboard\\saccodashboard\\models\\dashboardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Projects\\Sacco\\SaccoDashboard\\SaccoDashboard\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "SaccoDashboard\\Views\\_ViewImports.cshtml",
@@ -70,12 +70,11 @@
               "RelativeToolTip": "SaccoDashboard\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-07T15:20:29.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T15:20:29.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Projects\\Sacco\\SaccoDashboard\\SaccoDashboard\\Program.cs",
               "RelativeDocumentMoniker": "SaccoDashboard\\Program.cs",
@@ -83,12 +82,11 @@
               "RelativeToolTip": "SaccoDashboard\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T16:20:31.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-03T16:20:31.78Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Projects\\Sacco\\SaccoDashboard\\SaccoDashboard\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "SaccoDashboard\\Views\\Shared\\_Layout.cshtml",
@@ -96,18 +94,17 @@
               "RelativeToolTip": "SaccoDashboard\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABoAAAAAAAAAAADgvyIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-03T16:19:22.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-03T16:19:22.08Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "dashboard.css",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Projects\\Sacco\\SaccoDashboard\\SaccoDashboard\\wwwroot\\css\\dashboard.css",
               "RelativeDocumentMoniker": "SaccoDashboard\\wwwroot\\css\\dashboard.css",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Projects\\Sacco\\SaccoDashboard\\SaccoDashboard\\wwwroot\\css\\dashboard.css",
               "RelativeToolTip": "SaccoDashboard\\wwwroot\\css\\dashboard.css",
-              "ViewState": "AgIAAD0BAAAAAAAAAAAUwEMBAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAJQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-02-03T16:18:30.509Z",
               "EditorCaption": ""
@@ -120,20 +117,20 @@
               "RelativeDocumentMoniker": "SaccoDashboard\\Views\\Dashboard\\Index.cshtml",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Projects\\Sacco\\SaccoDashboard\\SaccoDashboard\\Views\\Dashboard\\Index.cshtml",
               "RelativeToolTip": "SaccoDashboard\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-03T16:17:12.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Projects\\Sacco\\SaccoDashboard\\SaccoDashboard\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "SaccoDashboard\\Controllers\\DashboardController.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Projects\\Sacco\\SaccoDashboard\\SaccoDashboard\\Controllers\\DashboardController.cs",
               "RelativeToolTip": "SaccoDashboard\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBYAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T16:15:15.562Z",
               "EditorCaption": ""
@@ -148,8 +145,7 @@
               "RelativeToolTip": "SaccoDashboard\\Models\\DashboardVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T16:14:12.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-03T16:14:12.334Z"
             }
           ]
         }

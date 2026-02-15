@@ -1,14 +1,17 @@
 ﻿:root {
-    --bg: #eef3f6;
-    --card: #ffffff;
-    --muted: #8aa1a8;
-    --text: #1f2a2e;
-    --accent: #16a085;
-    --shadow: 0 10px 30px rgba(0,0,0,.08);
+    --bg: #F4F6F8;
+    --card: #FFFFFF;
+    --text: #1E293B;
+    --muted: #64748B;
+    --primary: #0F766E;
+    --accent: #22C55E;
+    --border: #E2E8F0;
+    --hover: #ECFDF5;
+    --shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
     --radius: 14px;
-    --border: 1px solid rgba(0,0,0,.06);
     --font: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
+
 
 body {
     background: var(--bg);
@@ -88,9 +91,11 @@ body {
     }
 
     .nav-item.active {
-        background: rgba(22,160,133,.10);
-        color: #0f6f5e;
+        background: var(--hover);
+        color: var(--primary);
+        font-weight: 700;
     }
+
 
 .main {
     display: flex;
@@ -188,8 +193,9 @@ body {
 .bar-fill {
     height: 100%;
     border-radius: 999px;
-    background: linear-gradient(90deg, #16a085, #2ecc71);
+    background: linear-gradient(90deg, var(--primary), var(--accent));
 }
+
 
 .tx-table {
     margin-top: 8px;
@@ -245,10 +251,11 @@ body {
 
 .tx-amt {
     text-align: right;
-    color: #0f6f5e;
+    color: var(--primary);
     font-weight: 800;
 }
-/* Make the dashboard expand nicely on large screens */
+
+
 @media (min-width: 1600px) {
     .app-shell {
         width: min(1700px, calc(100vw - 80px));
