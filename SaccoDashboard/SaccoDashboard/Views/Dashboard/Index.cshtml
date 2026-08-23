@@ -1,4 +1,4 @@
-﻿@model SaccoDashboard.Models.DashboardVm
+﻿@model SaccoDashboard.Models.Dashboard.DashboardVm
 @{
     ViewData["Title"] = "Sacco Dashboard";
     var paidPercent = Model.LoanTotal == 0 ? 0 : (int)Math.Round((1 - (double)(Model.LoanRemaining / Model.LoanTotal)) * 100);

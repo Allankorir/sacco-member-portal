@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/SaccoDashboard/css/dashboard.avq8lnwmtn.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\dashboard.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"avq8lnwmtn"},{"Name":"integrity","Value":"sha256-BqtJygolMyZhLSBbKnk9gvR2ENdOKOZaYX5hqGKQe78="},{"Name":"label","Value":"_content/SaccoDashboard/css/dashboard.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5928"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022BqtJygolMyZhLSBbKnk9gvR2ENdOKOZaYX5hqGKQe78=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Feb 2026 16:44:06 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SaccoDashboard/css/dashboard.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\dashboard.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BqtJygolMyZhLSBbKnk9gvR2ENdOKOZaYX5hqGKQe78="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5928"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022BqtJygolMyZhLSBbKnk9gvR2ENdOKOZaYX5hqGKQe78=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Feb 2026 16:44:06 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eUoi6ue771DRupM6BwUAh5ctCY36ziJG19mIvbqcVzk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7118"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022eUoi6ue771DRupM6BwUAh5ctCY36ziJG19mIvbqcVzk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Aug 2026 15:23:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SaccoDashboard/css/dashboard.ncwfwdj7a6.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\dashboard.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ncwfwdj7a6"},{"Name":"integrity","Value":"sha256-eUoi6ue771DRupM6BwUAh5ctCY36ziJG19mIvbqcVzk="},{"Name":"label","Value":"_content/SaccoDashboard/css/dashboard.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7118"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022eUoi6ue771DRupM6BwUAh5ctCY36ziJG19mIvbqcVzk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Aug 2026 15:23:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SaccoDashboard/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
@@ -736,13 +736,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SaccoDashboard.g71ygmrsiz.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nBIQrenikWgNGgrV7KNX1vSd9EcAWTDtKXBYqgdJlrI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nBIQrenikWgNGgrV7KNX1vSd9EcAWTDtKXBYqgdJlrI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Feb 2026 15:51:38 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nBIQrenikWgNGgrV7KNX1vSd9EcAWTDtKXBYqgdJlrI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Aug 2026 15:19:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SaccoDashboard/SaccoDashboard.g71ygmrsiz.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SaccoDashboard.g71ygmrsiz.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g71ygmrsiz"},{"Name":"integrity","Value":"sha256-nBIQrenikWgNGgrV7KNX1vSd9EcAWTDtKXBYqgdJlrI="},{"Name":"label","Value":"_content/SaccoDashboard/SaccoDashboard.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nBIQrenikWgNGgrV7KNX1vSd9EcAWTDtKXBYqgdJlrI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 07 Feb 2026 15:51:38 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nBIQrenikWgNGgrV7KNX1vSd9EcAWTDtKXBYqgdJlrI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Aug 2026 15:19:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

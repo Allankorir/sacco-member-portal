@@ -14,6 +14,7 @@ C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\
 C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\Debug\net8.0\SaccoDashboard.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\Debug\net8.0\SaccoDashboard.RazorAssemblyInfo.cache
 C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\Debug\net8.0\SaccoDashboard.RazorAssemblyInfo.cs
+C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\Debug\net8.0\SaccoDashboard.sourcelink.json
 C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\Debug\net8.0\scopedcss\bundle\SaccoDashboard.styles.css
 C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\Debug\net8.0\scopedcss\projectbundle\SaccoDashboard.bundle.scp.css
@@ -32,4 +33,3 @@ C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\
 C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\Debug\net8.0\SaccoDashboard.pdb
 C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\Debug\net8.0\SaccoDashboard.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\Debug\net8.0\ref\SaccoDashboard.dll
-C:\Users\Administrator\Desktop\Projects\Sacco\SaccoDashboard\SaccoDashboard\obj\Debug\net8.0\SaccoDashboard.sourcelink.json

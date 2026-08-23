@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zQi9ObMErcuyIlfvlsdVNGH/Vhg4xdanHqxiMx55sRU=",
+  "Hash": "QckFNXeILuX89zszNWcyzJ2ragb67ewRQgySWGmxiSw=",
   "Source": "SaccoDashboard",
   "BasePath": "_content/SaccoDashboard",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "avq8lnwmtn",
-      "Integrity": "BqtJygolMyZhLSBbKnk9gvR2ENdOKOZaYX5hqGKQe78=",
+      "Fingerprint": "ncwfwdj7a6",
+      "Integrity": "eUoi6ue771DRupM6BwUAh5ctCY36ziJG19mIvbqcVzk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\dashboard.css"
@@ -1342,51 +1342,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/dashboard.avq8lnwmtn.css",
-      "AssetFile": "C:\\Users\\Administrator\\Desktop\\Projects\\Sacco\\SaccoDashboard\\SaccoDashboard\\wwwroot\\css\\dashboard.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5928"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BqtJygolMyZhLSBbKnk9gvR2ENdOKOZaYX5hqGKQe78=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 15 Feb 2026 16:44:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "avq8lnwmtn"
-        },
-        {
-          "Name": "label",
-          "Value": "css/dashboard.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-BqtJygolMyZhLSBbKnk9gvR2ENdOKOZaYX5hqGKQe78="
-        }
-      ]
-    },
-    {
       "Route": "css/dashboard.css",
       "AssetFile": "C:\\Users\\Administrator\\Desktop\\Projects\\Sacco\\SaccoDashboard\\SaccoDashboard\\wwwroot\\css\\dashboard.css",
       "Selectors": [],
@@ -1397,7 +1352,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5928"
+          "Value": "7118"
         },
         {
           "Name": "Content-Type",
@@ -1405,11 +1360,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BqtJygolMyZhLSBbKnk9gvR2ENdOKOZaYX5hqGKQe78=\""
+          "Value": "\"eUoi6ue771DRupM6BwUAh5ctCY36ziJG19mIvbqcVzk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 15 Feb 2026 16:44:06 GMT"
+          "Value": "Sun, 23 Aug 2026 15:23:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1419,7 +1374,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BqtJygolMyZhLSBbKnk9gvR2ENdOKOZaYX5hqGKQe78="
+          "Value": "sha256-eUoi6ue771DRupM6BwUAh5ctCY36ziJG19mIvbqcVzk="
+        }
+      ]
+    },
+    {
+      "Route": "css/dashboard.ncwfwdj7a6.css",
+      "AssetFile": "C:\\Users\\Administrator\\Desktop\\Projects\\Sacco\\SaccoDashboard\\SaccoDashboard\\wwwroot\\css\\dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7118"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eUoi6ue771DRupM6BwUAh5ctCY36ziJG19mIvbqcVzk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Aug 2026 15:23:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ncwfwdj7a6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eUoi6ue771DRupM6BwUAh5ctCY36ziJG19mIvbqcVzk="
         }
       ]
     },
@@ -6366,7 +6366,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Feb 2026 15:51:38 GMT"
+          "Value": "Sun, 23 Aug 2026 15:19:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6403,7 +6403,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Feb 2026 15:51:38 GMT"
+          "Value": "Sun, 23 Aug 2026 15:19:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6448,7 +6448,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Feb 2026 15:51:38 GMT"
+          "Value": "Sun, 23 Aug 2026 15:19:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6493,7 +6493,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Feb 2026 15:51:38 GMT"
+          "Value": "Sun, 23 Aug 2026 15:19:14 GMT"
         },
         {
           "Name": "Cache-Control",

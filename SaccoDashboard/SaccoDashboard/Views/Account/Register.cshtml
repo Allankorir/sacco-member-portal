@@ -1,0 +1,43 @@
+﻿@model SaccoDashboard.Models.Auth.RegisterVm
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="auth-container">
+    <div class="auth-card">
+
+        <h2>Create Account</h2>
+
+        <form asp-action="Register" method="post">
+
+            <input asp-for="FirstName"
+                   class="form-control mb-3"
+                   placeholder="First Name" />
+
+            <input asp-for="LastName"
+                   class="form-control mb-3"
+                   placeholder="Last Name" />
+
+            <input asp-for="Email"
+                   class="form-control mb-3"
+                   placeholder="Email Address" />
+
+            <input asp-for="Password"
+                   type="password"
+                   class="form-control mb-3"
+                   placeholder="Password" />
+
+            <input asp-for="ConfirmPassword"
+                   type="password"
+                   class="form-control mb-3"
+                   placeholder="Confirm Password" />
+
+            <button class="btn btn-success w-100">
+                Register
+            </button>
+
+        </form>
+
+    </div>
+</div>

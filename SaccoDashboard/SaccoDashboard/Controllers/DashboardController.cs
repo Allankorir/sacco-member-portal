@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SaccoDashboard.Models;
+using SaccoDashboard.Models.Dashboard;
 
 namespace SaccoDashboard.Controllers;
 

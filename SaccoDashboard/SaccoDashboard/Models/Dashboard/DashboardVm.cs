@@ -1,4 +1,4 @@
-﻿namespace SaccoDashboard.Models;
+﻿namespace SaccoDashboard.Models.Dashboard;
 
 public class DashboardVm
 {
